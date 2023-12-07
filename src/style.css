@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.bg-light {
+  background: #f9f9ff;
+}
+button {
+  font-size: 13px;
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+ul li {
+  list-style-type: none;
+}
+/* header */
+header.top-header a {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+header.top-header a span {
+  color: #26328c;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+header.top-header ul li {
+  margin-right: 20px;
+  text-align: center;
+}
+header.top-header form {
+  width: 40%;
+}
+header.top-header ul li p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #26328c;
+}
+nav ul li a {
+  color: #26328c !important;
+  font-size: 16px;
+  font-weight: 500 !important;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.top-header input[type='search'] {
+  background: #f6f6f6;
+  border-radius: 15px;
+  color: #26328ca6;
+}
+/* footer css  */
+.footer {
+  background: #26328c;
+  padding: 60px;
+}
+.footer h5 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.footer ul li {
+  color: #fff;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 27px;
+}
+.footer button,
+.newsletter input[type='submit'] {
+  font-size: 13px;
+  padding: 5px 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.footer .location p {
+  color: #fff;
+}
+.footer ul li a {
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 2px 10px 5px 10px;
+  border-radius: 8px;
+}
+.footer .social-links li {
+  padding-right: 10px;
+}
+.footer .support-links {
+  margin: 40px 0;
+}
+.footer .location {
+  margin-bottom: 40px;
+}
+/* testimonials css */
+.testimonial .testimonial-box {
+  background: #f9f9ff;
+  padding: 60px;
+  margin: 20px 20px;
+}
+.testimonial {
+  margin: 60px 0px;
+}
+.testimonial h3 {
+  color: #26328c;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.testimonial .content {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.testimonial .client-name {
+  font-size: 16px;
+  line-height: 24px;
+  color: #26328c;
+  font-weight: 600;
+}
+/* newslwtter  */
+.newsletter {
+  margin-top: 30px;
+  background: #26328c;
+  padding: 60px;
+}
+.newsletter h3,
+.newsletter p {
+  color: #fff;
+}
+.newsletter h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+.newsletter-form {
+  margin-top: 30px;
+}
+.newsletter p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.newsletter input[type='email'] {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  width: 100%;
+}
+.newsletter input[type='submit'] {
+  color: #fff;
+  background: #26328c;
+  border: 1px solid #fff;
+}
+
+/* offer css */
+.offer .offer-box {
+  background: #26328c;
+  padding: 60px;
+  border-radius: 20px;
+}
+.offer .offer-box h5 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+.offer .offer-box h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+}
+/* product */
+
+.product .card-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.product .card-tex {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.product .price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.product .price span.discount {
+  color: #26328c;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.product .price span.original-price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #c4c4c4;
+}
+/* productslider */
+.productSlider {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.productSlider h3 {
+  color: #26328c;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+.productSlider ul li {
+  background: #f9f9ff;
+}
+/* latest-products */
+.latest-products h3 {
+  color: #26328c;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+/* product-category */
+.product-category .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+/* banner */
+.banner {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.banner h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: #26328c;
+}
+.banner p {
+  color: #26328c;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.banner-button {
+  margin: 20px 0px;
+}
+.banner-button button {
+  font-size: 13px;
+  padding: 10px 30px;
+
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  border-radius: 15px;
+}
+.banner-button button.fill-btn {
+  background-color: #26328c;
+  border: 2px solid #26328c;
+  color: #fff;
+  margin-right: 20px;
+}
+.banner-button button.blank-btn {
+  color: #26328c;
+  border: 2px solid #26328c;
+  background-color: #fff;
+}
+
+.btn.btn-shop {
+  font-size: 13px;
+  padding: 5px 30px;
+
+  border: 1px solid #fff;
+  border-radius: 20px;
+
+  background-color: #fff;
+  color: #26328c;
+}
+/* media query */
+@media screen and (max-width: 767px) {
+  .testimonial h3 {
+    font-size: 22px;
+  }
+  header.top-header form {
+    width: 100%;
+  }
+}
